@@ -126,32 +126,10 @@ th, td {
     border: solid .5px
 }
 
-/*
-#toggle div p {
-    text-align: left;
-    color: #c0c0c0;
-    margin: 0
-}
-
-#toggle div h2 {
-    text-align: left;
-    color: #e3e8ff;
-}
-
-#toggle {
-    width: 500px;
-    height: 600px;
-  }
-*/
-
-/* 14 DEC 2017
-** styles for accordian menu
-*/
-
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #eef1ff;
+  color: #10032a;
   cursor: pointer;
   padding: 15px;
   width: 100%;
@@ -165,12 +143,12 @@ th, td {
 
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #eef1ff;
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: #10032a;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -182,13 +160,15 @@ th, td {
 
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #eef1ff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
-
+.panel img {
+    float: left;
+}
 
 footer {
     background-color: #021319;
